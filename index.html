@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ID card</title>
+<link rel='stylesheet' href='style.css' type='text/css' />
+<script src="script.js" defer></script>
+</head>
+<body >
+<div class="container">
+<h2>กรอกหลังบัตรประชาชน</h2>
+<form name="form1" action="#">
+<ul>
+<li><input type='text' id="text" maxlength="12" onkeypress="return ValidateAlpha(event)"/></li>
+<li class="rq">*ตัวอย่าง AA1234567890</li>
+<!-- <li><input id="submit" type="submit" name="submit" value="Submit"  /></li> -->
+<li><button id="submit"> Submit</button></li>
+
+<!-- 
+<label for="cname" class="label">The Risk Cluster Name</label>
+<textarea id="cname" rows="1px" cols="20px" style="resize:none" placeholder="Cluster Name" onKeyPress="return ValidateAlpha(event);" maxlength="12"></textarea>
+<button id="btn">asdas</button> -->
+</ul>
+
+</form>
+</div>
+</body>
+</html>
